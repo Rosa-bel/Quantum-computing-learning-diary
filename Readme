@@ -1,9 +1,10 @@
 # Quantum Computing Practice
 
 A personal learning journal in quantum computing: notebooks where I implement well-known algorithms, work through challenges found online, and try to understand *why* things work, not just that they work.
-Some of the notebook were found on GitHub, written by IBM qiskit community or other authors working on QC.
 
 This is not a library or a framework. It is a trace of my learning path, shared in case it helps others who are starting out in quantum computing and want to see how someone else approaches the same problems.
+
+> **Credits:** some of the notebooks are based on or adapted from material found on GitHub, written by the [IBM Qiskit community](https://github.com/Qiskit) and other authors working on quantum computing. See [Acknowledgements](#acknowledgements).
 
 ---
 
@@ -25,14 +26,13 @@ Most notebooks mix code with written explanations, because the goal is understan
 | Variational methods | VQE-style problems, ansatz design |
 | Quantum machine learning | notes and experiments around QML |
 
-Add or remove rows as the repository grows.
-
 ## Notebooks
 
 | Notebook | What it covers |
 |---|---|
 | Diagonal ±1 matrix to circuit | Turning any diagonal matrix with entries +1 / -1 into a circuit using the ANF (algebraic normal form) and the Möbius transform, with Z / CZ / CCZ gates built step by step |
-| *(next notebook)* | *(short description)* |
+
+More notebooks will be added as I go.
 
 ## How to read the notebooks
 
@@ -77,6 +77,10 @@ Everything runs on a local simulator. No quantum hardware or account is needed.
 - This is a learning repository. Explanations may be incomplete, and some of my reasoning may contain mistakes.
 - Challenge solutions are my own attempts and are not necessarily the best known ones.
 - If you spot an error or a clearer way to explain something, I would be glad to hear about it.
+
+## Acknowledgements
+
+Part of this repository builds on the work of others. Notebooks adapted from existing material come from the IBM Qiskit community and from other authors who share their quantum computing work on GitHub. The original source and author are credited at the top of each notebook concerned, and all rights remain with the original authors.
 
 ## Feedback
 
